@@ -27,9 +27,18 @@ main{
 
 /*parte sinistra*/
 .sinistra{
+  position: relative;
   width: 45%;
   height: 600px;
   float: left;
+}
+#barra{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 117%;
+  border-top: solid 5px red;
 }
 
 /*parte destra*/
