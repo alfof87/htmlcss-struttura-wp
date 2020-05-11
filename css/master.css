@@ -60,9 +60,23 @@ main{
   clear: both;
 }
 
+.foto img{
+  width: 350px;
+  height: 169px;
+}
+
 span{
   float: right;
   width: 15%;
-  transform: translate(-100%, +100%);
+  transform: translate(-180%, +100%);
+}
 
+
+
+/*footer*/
+#fine{
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 100%
 }
