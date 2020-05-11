@@ -10,6 +10,10 @@ header{
   height: 50px;
 }
 
+h1{
+  color: white;
+}
+
 main{
   background-color: white;
   width: 100%;
@@ -24,23 +28,22 @@ main{
 
 /*parte sinistra*/
 .sinistra{
-  width: 50%;
-  height: 500px;
+  width: 45%;
+  height: 600px;
   float: left;
 }
 
 /*parte destra*/
 .destra{
-  background-color: blue;
-  width: 40%;
-  height: 1000px;
+  width: 45%;
+  height: 600px;
   float: right;
 }
 
 
 .foto::after{
-  width: 50%;
-  height: 100px;
+  width: 10%;
+  height: 10%;
   content: "";
   display: table;
   clear: both;
@@ -48,4 +51,5 @@ main{
 
 span{
   float: right;
+  width: 15%;
 }
